@@ -1,0 +1,18 @@
+# VS Code specific folder
+.vscode/
+
+# Compiled C++ files
+*.o
+*.exe
+*.out
+
+# Compiled Java files
+*.class
+*.jar
+
+# Rust build directory
+target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
