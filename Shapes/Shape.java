@@ -1,16 +1,19 @@
+// Base class for simple shapes. Holds a primary dimension `x`.
+// Concrete shapes extend this class and override `getArea()`.
 public class Shape {
     double x;
 
-    // Constructors
+    // Default constructor: initialize x to 0
     public Shape() {
         this.x = 0;
     }
 
+    // Parameterized constructor: set the primary dimension
     public Shape(double x) {
         this.x = x;
     }
 
-    // Setter and Getter
+    // Setter and Getter for the primary dimension `x`
     public void setX(double x) {
         this.x = x;
     }
@@ -19,7 +22,7 @@ public class Shape {
         return x;
     }
 
-    // Area method returning -9.99 as per instruction
+    // Placeholder area method. Subclasses should override with real calculations.
     public double getArea() {
         return -9.99;
     }
