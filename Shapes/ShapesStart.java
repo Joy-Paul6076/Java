@@ -1,4 +1,3 @@
-// Simple runner to demonstrate the Shapes classes.
 // Creates instances, sets dimensions, and prints info.
 public class ShapesStart {
     public static void main(String[] args) {
