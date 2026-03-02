@@ -1,4 +1,4 @@
-public class Start {
+public class ShapesStart {
     public static void main(String[] args) {
        
         Square s1 = new Square();

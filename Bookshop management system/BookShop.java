@@ -39,8 +39,8 @@ public boolean removeBook(Book b){
     return false;
 }
 public Book searchBook(String isbn) {
-        for (int i =0;i<listOfBooks.length;i++) {
-            if (listOfBooks[i]== null && listOfBooks[i].getIsbn().equals(isbn)) {
+        for (int i = 0; i < listOfBooks.length; i++) {
+            if (listOfBooks[i] != null && listOfBooks[i].getIsbn().equals(isbn)) {
                 return listOfBooks[i];
             }
         }
