@@ -2,7 +2,7 @@
 public class ShapesStart {
     public static void main(String[] args) {
 
-        // Square with default constructor,then set side to 4.0
+        // Square with default constructor
         Square s1 = new Square();
         s1.setX(4.0);
 
@@ -13,7 +13,6 @@ public class ShapesStart {
         Triangle t1 = new Triangle();
         t1.setX(10.0);
         t1.setY(5.0);
-
         // Triangle constructed with base
         Triangle t2 = new Triangle(6.0, 7.0);
 
