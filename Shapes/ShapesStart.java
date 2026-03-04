@@ -9,7 +9,7 @@ public class ShapesStart {
         // Square constructed with side 
         Square s2 = new Square(8.0);
 
-        // Triangle using setters for base and height
+        // Triangle using setters for base and 
         Triangle t1 = new Triangle();
         t1.setX(10.0);
         t1.setY(5.0);
